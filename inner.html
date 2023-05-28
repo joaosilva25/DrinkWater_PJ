@@ -9,7 +9,8 @@
     <title>DrinkWater</title>
 </head>
 <body>
-    <div class="conatiner-fluid">
+    <div class="container-fluid">
+        <p class="text-center align-items-center"></p>
         <div class="row display">
             <div class="col-6 leftside">
                 <div class="text_left d-flex align-items-center justify-content-center">
@@ -18,19 +19,22 @@
                 <div class="img_left d-flex justify-content-center flex-column align-items-center">
                     <h4 class="text-center">How many glasses that <br>you have drink today?</h4>
                     <h3>250ML</h3>
-                    <button type="button" class="btn-button" onclick="clicar()">
                         <img src="images/copo.png">
-                    </button>
+                        <button type="button" class="btn-button" onclick="clicar()">
+                            Click após Beber
+                        </button>
                  </div>
             </div>
             <div class="col-6 right-side">
-                <h5 class="text-center porcent">0%</h5>
                 <h2 class="text-center">Goal 2 liter</h2>
-                <div class="water_bottom d-flex">
+                <div class="capacity d-flex">
                     <img src="images/regua.png">
-                    <img src="images/garrafa.png">
+                    <div class="nivel_water">
+                        <div class="nivel_water_intern">                    
+                            <h5 class="text-center porcent">0%</h5>
+                        </div>
+                    </div>
                 </div>
-                <h2 class="text-center">Drink Water</h2>
             </div>
         </div>
     </div>

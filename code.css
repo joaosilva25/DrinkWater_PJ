@@ -10,8 +10,8 @@ body {
 }
 
 h1 {
-    font-size: 70px;
-    position:relative;top:40px;
+    font-size: 50px;
+    position:relative;top:50px;
 
 }
 
@@ -21,8 +21,8 @@ h3 {
 }
 
 h4 {
-    font-size:20px;
-    position:relative;top:120px;
+    font-size:15px;
+    position:relative;top:170px;
 }
 
 h2 {
@@ -31,16 +31,28 @@ h2 {
     margin-bottom: 30px;
     margin-top: 40px;
 }
+
+h5 {
+    font-size:25px;
+}
+
+p {
+    position:relative;top:270px;
+}
+
 .display {
     height:100vh;
     background-color:#70b5d3;
 
 }
-.water_bottom {
+.capacity {
         position:relative;top:10px;left:200px;
 }
+.img_left {
+    position:relative;bottom:70px;
+}
 
-.water_bottom>img {
+.capacity>img {
     height: 350px;
     margin-right: -200px;
 }
@@ -55,6 +67,40 @@ h2 {
 }
 
 button {
-    background-color: transparent;
-    border:none;
+    position:relative;bottom:180px;
+    height: 50px;
+    background-color:white;
+    color:#38a6d4;
+    padding:5px;
+    border:dotted #70b5d3;
+    transition:0.5s ease-in-out;
+}
+
+button:hover{
+    position:relative;bottom:180px;
+    height: 50px;
+    background-color:#38a6d4;
+    color:white;
+    padding:5px;
+    border:dotted #70b5d3;
+    transform:scale(1.1);
+}
+
+.nivel_water{
+    display:flex;
+    position:relative;left:70px;
+    height: 350px;
+    width:200px;
+    border-radius:10px;
+    border:1px solid;
+}
+
+
+.nivel_water_intern{
+    align-self: flex-end;
+    height: 0%;
+    width:198px;
+    border-radius:10px;
+    border:transparent;
+    background-color: #38a6d4;
 }
